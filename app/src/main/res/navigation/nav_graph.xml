@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.example.flagquiz.ui.screens.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_signInScreen"
+            app:destination="@id/signInScreen"
+            app:popUpTo="@id/nav_graph.xml" />
+        <action
+            android:id="@+id/action_splashScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/nav_graph.xml" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInScreen"
+        android:name="com.example.flagquiz.ui.screens.SignInScreen"
+        android:label="fragment_sign_in_screen"
+        tools:layout="@layout/fragment_sign_in_screen" >
+        <action
+            android:id="@+id/action_signInScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/nav_graph.xml" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="com.example.flagquiz.ui.screens.MainScreen"
+        android:label="fragment_main_screen"
+        tools:layout="@layout/fragment_main_screen" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_mainScreen_to_quizScreen"
+            app:destination="@id/quizScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_signInScreen"
+            app:destination="@id/signInScreen"
+            app:popUpTo="@id/nav_graph.xml" />
+        <action
+            android:id="@+id/action_mainScreen_to_aboutScreen"
+            app:destination="@id/aboutScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_settingsScreen"
+            app:destination="@id/settingsScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizScreen"
+        android:name="com.example.flagquiz.ui.screens.QuizScreen"
+        android:label="fragment_quiz_screen"
+        tools:layout="@layout/fragment_quiz_screen" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutScreen"
+        tools:layout="@layout/fragment_about_screen"
+        android:name="com.example.flagquiz.ui.screens.AboutScreen"
+        android:label="AboutScreen" />
+    <fragment
+
+        android:id="@+id/settingsScreen"
+        android:name="com.example.flagquiz.ui.screens.SettingsScreen"
+        android:label="fragment_settings_screen"
+        tools:layout="@layout/fragment_settings_screen" >
+        <action
+            android:id="@+id/action_settingsScreen_to_signInScreen"
+            app:destination="@id/signInScreen"
+            app:popUpTo="@id/nav_graph.xml" />
+    </fragment>
+</navigation>

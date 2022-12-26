@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Flags Quiz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">image</string>
+    <string name="string_about">Europe\n
+        Germany - France - United Kingdom - Russia - Italy - Spain - Netherlands - Switzerland - Sweden - Norway - Poland - Belgium - Austria - Denmark - Finland - Greece - Portugal - Ireland - Czech Republic - Ukraine - Romania
+        Europe 2 \n
+        Hungary - Slovakia - Belarus - Luxembourg - Croatia - Bulgaria - Slovenia - Lithuania - Serbia - Latvia - Estonia - Iceland - Albania - Macedonia - Malta - Moldova - Kosovo - Monaco - Montenegro - Bosnia and Herzegovina
+        Asia \n
+        China - Japan - India - North Korea - South Korea - Indonesia - Turkey - Saudi Arabia - Iran - Thailand - Malaysia - Singapore - Philippines - Israel - Pakistan - Iraq - Kazakhstan - Kuwait - Qatar - Vietnam - Bangladesh
+        Asia 2\n
+        Syria - Oman - Azerbaijan - Sri Lanka - Uzbekistan - Lebanon - Yemen - Turkmenistan - Jordan - Cyprus - Bahrain - Nepal - Afghanistan - Georgia - Cambodia - Mongolia - Armenia - Tajikistan - Kyrgyz Republic - United Arab Emirates - Maldives - Bhutan - Brunei Darussalam North America United States - Canada - Mexico - Puerto Rico - Guatemala - Costa Rica - Panama - El Salvador - Honduras - Jamaica - Nicaragua - Bahamas - Haiti - Bermuda - Aruba - Belize - Antigua and Barbuda - Grenada - Dominican Republic - Dominica
+        South America \n
+        Brazil - Argentina - Venezuela - Colombia - Chile - Peru - Ecuador - Uruguay - Bolivia - Paraguay - Suriname - Barbados - Guyana Australia Australia - New Zealand - Papua New Guinea - Fiji - Solomon Islands - Vanuatu - Samoa - Tonga - Micronesia - Palau - Marshall Islands - Kiribati - Tuvalu
+        Africa \n
+        South Africa - Nigeria - Egypt - Algeria - Angola - Morocco - Sudan - Tunisia - Ethiopia - Ghana - Kenya - Tanzania - Cameroon - Zambia - Uganda - Gabon - Mozambique - Botswana - Senegal - Congo - Namibia
+        Africa 2\n
+        Chad - Zimbabwe - Mauritius - Burkina Faso - Mali - Madagascar - South Sudan - Benin - Rwanda - Guinea - Niger - Malawi - Mauritania - Togo - Sierra Leone - Swaziland - Eritrea - Burundi - Lesotho - Cape Verde - Liberia - Djibouti - Seychelles - Gambia - Guinea-Bissau - Equatorial Guinea - Comoros </string>
+</resources>
