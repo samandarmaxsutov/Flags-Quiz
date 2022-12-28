@@ -1,7 +1,6 @@
 package com.example.flagquiz.viewmodels.impl
 
 
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -15,17 +14,10 @@ class SplashViewModel: ViewModel(){
     private val localStorage=LocalStorage.getLocalStorage()
     init {
         viewModelScope.launch {
-
-            Log.d("TAG", ": ${localStorage.userId}")
             delay(1000)
-
-            Log.d("TAG", ": ${localStorage.userId}")
             if (localStorage.userId==0){
                 openSignInLiveData.value=Unit
             } else{
-
-                Log.d("TAG", ": ${localStorage.userId}")
-//                openSignInLiveData.value=Unit
                 openMainScreenLiveData.value=localStorage.userId
             }
         }

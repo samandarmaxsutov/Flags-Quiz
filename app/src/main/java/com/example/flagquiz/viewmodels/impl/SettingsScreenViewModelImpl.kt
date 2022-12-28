@@ -1,14 +1,12 @@
 package com.example.flagquiz.viewmodels.impl
 
 import androidx.core.text.isDigitsOnly
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.flagquiz.data.locale_storage.room.AppDatabase
 import com.example.flagquiz.data.locale_storage.room.enitities.UserEntity
 import com.example.flagquiz.data.locale_storage.shared_pref.LocalStorage
-import com.example.flagquiz.data.repository.LevelsRepository
 import com.example.flagquiz.viewmodels.SettingsScreenViewModel
 
 class SettingsScreenViewModelImpl : SettingsScreenViewModel, ViewModel(){
